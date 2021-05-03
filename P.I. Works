@@ -47,7 +47,7 @@ After registrated and saving the user for the user management screen, users will
 Users will be listed in the left side of the screen. Users are listed by its ID,User Name,Email and Enabled status respectively. 
 Filtering has to be working in the list of users for each column.
 ID,User Name,Email and Enabled status will be written with the white text color in the blue text field and they will be seperated for each column.
-
+Users which are listed will be shown in the gray color.
 
 
 
