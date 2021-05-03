@@ -1,5 +1,9 @@
-This module provides user management screen to see the users information in the database. Screen will be divided into 2 parts. 
-On the left hand side, user information will be shown. New user registration part will be on the right hand side. 
+This module provides user management screen to see the users information in the database. Screen will be divided into 3 parts. 
+On the left hand side, user information will be shown. New user registration part will be on the right hand side. Upper side 
+is used to create new user,to hide disabled user and to save the new user which is created so far on the right side.
+
+
+RIGHT SCREEN
 To start the registration interface, there will be 6 input data needed to complete the registration. These are given below:
 
 Username:       Text Field
@@ -11,8 +15,18 @@ Enabled:
 
 There will be just text fields in the Username,Display Name, Phone and Email. 
 
-For the User Roles, there will be list boxes in the text field."Select user roles..." will be written Three roles would be listed respectively such as :
+For the User Roles, there will be list boxes in the text field."Select user roles..." will be written in the text field in a shadow format.
+
+User roles will be selected by the user. Three roles would be listed respectively such as :
 
 Guest
 Admin
 SuperAdmin
+
+Lastly, there is a checkbox in front of Enabled: to check if it is enabled or not.
+Title of the right side is New User and it is written in the shadow background format.The size of New User title will be 14 and all other right side texts will be 12. 
+
+Font will be Times New Roman for all the texts.
+
+LEFT SCREEN
+Users will be listed in the left side of the screen. Users are listed by its ID,User Name,Email and Enabled status respectively. Filtering has to be working in the list of users.
