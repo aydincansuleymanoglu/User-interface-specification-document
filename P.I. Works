@@ -1,1 +1,18 @@
-asdasd
+This module provides user management screen to see the users information in the database. Screen will be divided into 2 parts. 
+On the left hand side, user information will be shown. New user registration part will be on the right hand side. 
+To start the registration interface, there will be 6 input data needed to complete the registration. These are given below:
+
+Username:       Text Field
+Display Name:   Text Field
+Phone:          Text Field
+Email:          Text Field
+User Roles:     Text Field
+Enabled:      
+
+There will be just text fields in the Username,Display Name, Phone and Email. 
+
+For the User Roles, there will be list boxes in the text field."Select user roles..." will be written Three roles would be listed respectively such as :
+
+Guest
+Admin
+SuperAdmin
