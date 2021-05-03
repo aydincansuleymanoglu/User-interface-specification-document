@@ -1,7 +1,22 @@
 This module provides user management screen to see the users information in the database. Screen will be divided into 3 parts. 
-On the left hand side, user information will be shown. New user registration part will be on the right hand side. Upper side 
+On the left screen, user information will be shown. New user registration part will be on the right screen. Upper side 
 is used to create new user,to hide disabled user and to save the new user which is created so far on the right side.
 
+GENERAL RULES:
+Font will be Times New Roman for all the texts.
+All the size of the texts are 12 except it is mentioned particularly below.
+
+UPPER SCREEN
+There will be 3 buttons in the upper screen. 
+"+New User" button will be written with the white text color in the blue text field. 
+"Hide Disabled User" will be written bold with the checkbox in the front of text.There will be no text field for this text.
+When the checkbox is clicked, users that are disabled which are seen in the left side of screen will be lost in the screen by filtering them.
+"Save User" button will be written with the white text color in the blue text field.
+Background color of the upper part will be gray.
+
+"+New User" button will be cleaning the right side which is new user registration form.
+Hide Disabled User checkbox will be controlling the filter operation of the left screen which shows the registrated users in the list.
+Save User button will be saving the new user information which is filled in the new user registration form on the right screen.
 
 RIGHT SCREEN
 To start the registration interface, there will be 6 input data needed to complete the registration. These are given below:
@@ -11,9 +26,9 @@ Display Name:   Text Field
 Phone:          Text Field
 Email:          Text Field
 User Roles:     Text Field
-Enabled:      
+Enabled:        Checkbox
 
-There will be just text fields in the Username,Display Name, Phone and Email. 
+There will be just text fields in the Username,Display Name, Phone and Email.
 
 For the User Roles, there will be list boxes in the text field."Select user roles..." will be written in the text field in a shadow format.
 
@@ -24,9 +39,15 @@ Admin
 SuperAdmin
 
 Lastly, there is a checkbox in front of Enabled: to check if it is enabled or not.
-Title of the right side is New User and it is written in the shadow background format.The size of New User title will be 14 and all other right side texts will be 12. 
+Title of the right side is New User and it is written in the shadow background format.The size of New User title will be 14.
 
-Font will be Times New Roman for all the texts.
 
 LEFT SCREEN
-Users will be listed in the left side of the screen. Users are listed by its ID,User Name,Email and Enabled status respectively. Filtering has to be working in the list of users.
+After registrated and saving the user for the user management screen, users will be listed in the left side of the screen.
+Users will be listed in the left side of the screen. Users are listed by its ID,User Name,Email and Enabled status respectively. 
+Filtering has to be working in the list of users for each column.
+ID,User Name,Email and Enabled status will be written with the white text color in the blue text field and they will be seperated for each column.
+
+
+
+
